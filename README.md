@@ -62,3 +62,27 @@ Figma variables are transformed to ensure they are valid in **CSS**:
 - **Keyboard navigation**: all interactive elements support keyboard navigation for improved accessibility
 - **Focus indicators**: clear visual focus on form fields and interactive elements
 - **Accessibility compliance**: designed following W3C and A11Y best practices
+
+## How to use
+
+### Exporting CSS Variables
+
+- Navigate to the **Export** tab
+- View all Figma variables structured into **collections** and **modes** (a collection contains multiple modes)
+- Select a collection and a mode
+- Preview the generated CSS
+- Copy the generated CSS directly to your clipboard or download all CSS files
+
+### Deploying to Git (Premium feature)
+
+- First, add a Git provider from the **Settings** tab
+- Choose a provider from the available options (**GitHub**, **GitLab**)
+- Fill in the required details in the configuration modal
+- Save the provider settings
+- Next, go to the **Deploy** tab and select a provider from the list
+- Use the **multiple selection dropdown** to choose the **modes** you wish to deploy
+- Click **Push** to deploy the corresponding CSS files to Git
+
+---
+
+Made with ❤️ by [@yoriiis](https://github.com/yoriiis)
