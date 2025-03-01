@@ -1,8 +1,10 @@
 # Figma CSS Variables Plugin
 
+> This repository hosts the [Github Discussion community](https://github.com/figma-css-variables/community/discussions) for the [Figma CSS Variables plugin](https://www.figma.com/community/plugin/1474166340745390696/figma-css-variables).
+
 Effortlessly export your Figma variables to CSS and deploy them to Git.
 
-[![Image of Figma CSS Variables plugin](https://yoriiis.github.io/cdn/static/figma-css-variables/cover-1.png)](https://www.figma.com/community/plugin/1474166340745390696/figma-css-variables))
+[![Image of Figma CSS Variables plugin](https://yoriiis.github.io/cdn/static/figma-css-variables/cover-1.png)](https://www.figma.com/community/plugin/1474166340745390696/figma-css-variables)
 
 ## Features
 
