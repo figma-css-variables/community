@@ -1,6 +1,7 @@
 # Figma CSS Variables: Network Access
 
-This document outlines the network resources the Figma plugin connects to when using the Community build.
+> [!IMPORTANT]
+> This document outlines the network resources the Figma plugin connects to when using the Community build.
 
 ## Sentry
 
