@@ -57,7 +57,7 @@ Ensure you copied the license correctly without any extra spaces. The license is
 
 <br />
 
-For security reasons, licenses are not stored in plain text. If you lose your license, contact us at `yoriiis[at]duck.com` to generate a new one.
+For security reasons, licenses are not stored in plain text. If you lose your license, contact us at `figmacssvariables[at]yoriiis.com` to generate a new one.
 
 </details>
 
@@ -67,7 +67,7 @@ For security reasons, licenses are not stored in plain text. If you lose your li
 
 <br />
 
-If your subscription has been canceled or the payment has failed, and the validity period has expired, the license becomes inactive. To reactivate your license, ensure your subscription is active on Stripe. If needed, renew it directly through Stripe or contact support at `yoriiis[at]duck.com` with your proof of purchase. Once the subscription is active again, the license will be restored automatically.
+If your subscription has been canceled or the payment has failed, and the validity period has expired, the license becomes inactive. To reactivate your license, ensure your subscription is active on Stripe. If needed, renew it directly through Stripe or contact support at `figmacssvariables[at]yoriiis.com` with your proof of purchase. Once the subscription is active again, the license will be restored automatically.
 
 </details>
 
