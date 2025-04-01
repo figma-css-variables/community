@@ -23,7 +23,7 @@ Connections occur directly between the plugin and the user's chosen provider; no
 
 ### License validation
 
-The **Git deployment** feature requires a valid license, which is verified through a Netlify Edge Function hosted at `figmacssvariables-api.netlify.app`. This process checks the license key and Figma User ID to ensure authorized usage.
+The **Git deployment** feature requires a valid license, which is verified through a Netlify Edge Function. This process checks the license key and Figma User ID to ensure authorized usage.
 
 License data is stored on **Supabase**, while payments are processed via **Stripe**. The email associated with the Stripe subscription is used to link a license to a user.
 
