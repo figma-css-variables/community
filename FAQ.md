@@ -35,7 +35,7 @@ Check the browser's Developer Tools (right-click > Inspect > Console tab). If th
 
 <br />
 
-Check your spam folder. Emails are sent from the email address `noreply@figma-plugin.yoriiis.com`. If you still can't find the email, reach out to us with your proof of purchase, and we'll generate a new license for you.
+Check your spam folder. Emails are sent from the email address `figmacssvariables[at]yoriiis.com`. If you still can't find the email, reach out to us with your proof of purchase, and we'll generate a new license for you.
 
 </details>
 
