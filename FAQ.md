@@ -101,7 +101,7 @@ Nothing. Your license was automatically linked to your Figma account. If your Pr
 
 <br />
 
-Go to the Export tab, select a collection and mode, preview the CSS, then copy it to your clipboard. The download option (ZIP) requires a subscription.
+Go to the Export tab, select a collection and mode, preview the CSS, then copy it to your clipboard. **Pro users**: download all files as a ZIP.
 
 </details>
 
@@ -125,7 +125,7 @@ The plugin applies transformations to ensure CSS validity:
 
 <br />
 
-The **Download all** option (requires subscription) exports all selected collections at once in a ZIP file. For the copy-to-clipboard option, only one mode of a collection is copied. The **Git deployment** feature also lets you select specific collections and modes to deploy.
+The **Download all** option (Pro) exports all selected collections at once in a ZIP file. For the copy-to-clipboard option, only one mode of a collection is copied. The **Git deployment** feature (Pro) also lets you select specific collections and modes to deploy.
 
 </details>
 
