@@ -25,6 +25,8 @@ Everything in **Free**, plus:
 - **Git deployment** Push your CSS files directly to GitHub, GitLab, or self-hosted GitLab
 - Select specific collections and modes to deploy
 - Commit messages are automatically generated
+- **Extra languages** Tailwind v4, TypeScript, Flutter, Jetpack Compose, SwiftUI and more
+- **Color formats** Display P3, LCH, LAB, OKLAB for wider gamut support
 
 Subscriptions are managed through Stripe directly from the plugin.
 
