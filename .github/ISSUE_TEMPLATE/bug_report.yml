@@ -1,0 +1,80 @@
+name: Bug report
+description: "Report a problem to help us improve Figma CSS Variables: Design Tokens Export & Deploy"
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to report a bug.
+
+  - type: markdown
+    attributes:
+      value: |
+        Issues that don't follow this template will be closed.
+        Please provide as much detail as possible to help reproduce the issue.
+
+  - type: input
+    id: version
+    attributes:
+      label: Plugin version
+      placeholder: "e.g. 5.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: |
+        Where did this happen?
+        - Figma app version + OS (e.g. "Figma 124.3 on macOS Sequoia / Editor mode")
+        - Or browser (e.g. "Chrome 125 on Windows 11")
+      placeholder: "e.g. Figma 124.3 / macOS Sequoia / Editor mode"
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: Bug description
+      description: What is happening?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - blocker
+        - critical
+        - medium
+        - low
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Screenshots, Figma DevTools Console errors, etc.
+    validations:
+      required: false

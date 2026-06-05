@@ -1,0 +1,124 @@
+name: Feature request
+description: "Suggest an idea or improvement for Figma CSS Variables: Design Tokens Export & Deploy"
+title: "[Feature]: "
+labels: ["feature"]
+
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for suggesting a feature for Figma CSS Variables: Design Tokens Export & Deploy."
+
+  - type: markdown
+    attributes:
+      value: |
+        Issues that don't follow this template will be closed.
+        Please provide enough details to help evaluate its usefulness and feasibility.
+
+  - type: input
+    id: name
+    attributes:
+      label: Feature name
+      placeholder: Short and descriptive title
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      description: Which area does this feature apply to?
+      options:
+        - Export
+        - Deploy
+        - Settings
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope_details
+    attributes:
+      label: Scope details
+      description: |
+        Provide more detail about the scope.
+        For Export: which language (CSS, SCSS, Tailwind, TypeScript, etc.), color format, prefix, grouping?
+        For Deploy: which provider (GitHub, GitLab), branch strategy, file structure?
+        For Settings: Git provider configuration, Stripe subscription / Pro features, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: |
+        What problem does this feature solve?
+        Why is the current behavior insufficient?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: |
+        Describe your proposed solution:
+        - API design (if relevant)
+        - Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_cases
+    attributes:
+      label: Use cases
+      description: |
+        Provide concrete real-world scenarios where this feature is needed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: |
+        What other approaches or workarounds did you consider?
+        Why are they not sufficient?
+    validations:
+      required: false
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Expected impact
+      description: |
+        What benefits does this bring?
+        (performance, DX, accessibility, compatibility, etc.)
+    validations:
+      required: false
+
+  - type: dropdown
+    id: breaking
+    attributes:
+      label: Breaking change?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria
+      description: |
+        What conditions must be met for this feature to be considered complete?
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Links, references, screenshots, etc.
+    validations:
+      required: false
