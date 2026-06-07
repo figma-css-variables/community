@@ -1,10 +1,10 @@
-# Figma CSS Variables Plugin
+# Fgma CSS Variables: Design Tokens Export & Deplo
 
 > [!NOTE]
 > This repository hosts the [Github Discussion community](https://github.com/figma-css-variables/community/discussions) for the [Figma CSS Variables plugin](https://www.figma.com/community/plugin/1474166340745390696/figma-css-variables).<br />
 > Check the [FAQ](FAQ.md) or [GitHub Discussions](https://github.com/figma-css-variables/community/discussions) for support.
 
-Export your Figma variables to CSS and deploy them to Git.
+Turn Figma variables into production-ready code — CSS, TypeScript, SwiftUI, Flutter, and 5 more. Deploy directly to GitHub or GitLab.
 
 [![Image of Figma CSS Variables plugin](https://yoriiis.github.io/cdn/static/figma-css-variables/cover-1.png)](https://www.figma.com/community/plugin/1474166340745390696/figma-css-variables)
 
