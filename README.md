@@ -1,4 +1,4 @@
-# Fgma CSS Variables: Design Tokens Export & Deplo
+# Figma CSS Variables: Design Tokens Export & Deploy
 
 > [!NOTE]
 > This repository hosts the [Github Discussion community](https://github.com/figma-css-variables/community/discussions) for the [Figma CSS Variables plugin](https://www.figma.com/community/plugin/1474166340745390696/figma-css-variables).<br />
