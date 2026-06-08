@@ -19,12 +19,8 @@ When users utilize the **Git provider** feature, the plugin connects directly to
 
 Connections occur directly between the plugin and the user's chosen provider; no data passes through our infrastructure. All data is stored locally within the Figma application.
 
-## Licensed Users
+### Subscription status
 
-### License validation
+The plugin periodically checks your subscription status to determine which features are available.
 
-The **Git deployment** feature requires a valid license, which is verified through a Netlify Edge Function. This process checks the license key and Figma User ID to ensure authorized usage.
-
-License data is stored on **Supabase**, while payments are processed via **Stripe**. The email associated with the Stripe subscription is used to link a license to a user.
-
-No unnecessary personal data is collected, and all information is handled securely.
+Payments are processed by **Stripe**. No payment data passes through our infrastructure.

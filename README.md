@@ -1,28 +1,34 @@
-# Figma CSS Variables Plugin
+# Figma CSS Variables: Design Tokens Export & Deploy
 
 > [!NOTE]
 > This repository hosts the [Github Discussion community](https://github.com/figma-css-variables/community/discussions) for the [Figma CSS Variables plugin](https://www.figma.com/community/plugin/1474166340745390696/figma-css-variables).<br />
 > Check the [FAQ](FAQ.md) or [GitHub Discussions](https://github.com/figma-css-variables/community/discussions) for support.
 
-Effortlessly export your Figma variables to CSS. Git deployment is coming soon!
+Turn Figma variables into production-ready code — CSS, TypeScript, SwiftUI, Flutter, and 5 more. Deploy directly to GitHub or GitLab.
 
 [![Image of Figma CSS Variables plugin](https://yoriiis.github.io/cdn/static/figma-css-variables/cover-1.png)](https://www.figma.com/community/plugin/1474166340745390696/figma-css-variables)
 
 ## Features
 
-### Export & Sync
+### Free
 
 - **Analyze your variables** View all Figma variable collections and modes
 - **Instant CSS generation** Preview and export CSS from your variables
-- **Flexible export options** Copy CSS directly or download all generated CSS files
+- **Copy to clipboard** Copy the generated CSS for a single mode
 - **One-click synchronization** Always stay up to date with your latest Figma variables
-- When exporting, a **ZIP file** is generated with all the CSS files at the root level
 
-### Deploy to Git (coming soon)
+### Pro
 
-A powerful **Git deployment** feature is coming soon! This will allow you to automatically deploy your generated **CSS variable files** to **Git** for seamless design–code collaboration.
+Everything in **Free**, plus:
 
-We'd love to hear your thoughts and feedback on this upcoming feature! Feel free to join the discussion on [GitHub Discussions](https://github.com/figma-css-variables/community/discussions).
+- **Download all** Export all collections and modes as a ZIP file
+- **Git deployment** Push your CSS files directly to GitHub, GitLab, or self-hosted GitLab
+- Select specific collections and modes to deploy
+- Commit messages are automatically generated
+- **Extra languages** Tailwind v4, TypeScript, Flutter, Jetpack Compose, SwiftUI and more
+- **Color formats** Display P3, LCH, LAB, OKLAB for wider gamut support
+
+Subscriptions are managed through Stripe directly from the plugin.
 
 ### File structure
 
@@ -53,7 +59,15 @@ Figma variables are transformed to ensure they are valid in **CSS**:
 - View all Figma variables structured into **collections** and **modes** (a collection contains multiple modes)
 - Select a collection and a mode
 - Preview the generated CSS
-- Copy the generated CSS directly to your clipboard or download all CSS files
+- Copy the generated CSS directly to your clipboard
+- **Pro users**: download all files as a ZIP
+
+### Deploying to Git
+
+- Navigate to the **Settings** tab and add a Git provider
+- Go to the **Deploy** tab
+- Select your provider, choose the collections and modes to export
+- Click the **Push** button to deploy
 
 ---
 

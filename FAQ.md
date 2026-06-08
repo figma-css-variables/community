@@ -27,47 +27,69 @@ Check the browser's Developer Tools (right-click > Inspect > Console tab). If th
 
 </details>
 
-## 🔑 License management
+## 💳 Subscription
 
 <details>
 
-<summary>I didn't receive my license after purchase. What should I do?</summary>
+<summary>How do I subscribe?</summary>
 
 <br />
 
-Check your spam folder. Emails are sent from the email address `figmacssvariables[at]yoriiis.com`. If you still can't find the email, reach out to us with your proof of purchase, and we'll generate a new license for you.
+Click the **Subscribe** button in the plugin (visible on the Deploy or Export tab when you're not subscribed). You'll be redirected to Stripe Checkout to complete the payment. After a successful payment, your access is updated automatically.
 
 </details>
 
 <details>
 
-<summary>My license doesn't work. What should I check?</summary>
+<summary>How do I manage or cancel my subscription?</summary>
 
 <br />
 
-Ensure you copied the license correctly without any extra spaces. The license is tied to the email used during purchase.
-
-Ensure you copied the license correctly without any extra spaces. The license is tied to the email used during purchase. The format of a valid license key looks like this: `XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX-V1`, where each `X` is a random alphanumeric character.
+Go to the **Settings** tab and click **Manage subscription**. You'll be redirected to Stripe Customer Portal where you can update your payment method, view invoices, or cancel your subscription.
 
 </details>
 
 <details>
 
-<summary>What if I lose my license?</summary>
+<summary>What happens if my payment fails?</summary>
 
 <br />
 
-For security reasons, licenses are not stored in plain text. If you lose your license, contact us at `figmacssvariables[at]yoriiis.com` to generate a new one.
+Stripe will retry the payment automatically. If the payment continues to fail, your subscription will be marked as inactive and Pro features will be locked. You can update your payment method through the Stripe Customer Portal (Settings > Manage subscription).
 
 </details>
 
 <details>
 
-<summary>My license is expired. What should I do?</summary>
+<summary>What features are included in the subscription?</summary>
 
 <br />
 
-If your subscription has been canceled or the payment has failed, and the validity period has expired, the license becomes inactive. To reactivate your license, ensure your subscription is active on Stripe. If needed, renew it directly through Stripe or contact support at `figmacssvariables[at]yoriiis.com` with your proof of purchase. Once the subscription is active again, the license will be restored automatically.
+See the [Pro section in the README](README.md#pro) for the full list of features included with a subscription.
+
+The **Export tab** (preview and copy to clipboard) remains free for all users.
+
+</details>
+
+<details>
+
+<summary>Is my subscription tied to a specific Figma account?</summary>
+
+<br />
+
+Yes. Your subscription is linked to the **Figma account** you used when subscribing. Make sure you're logged into the same Figma account when using the plugin. If you use multiple Figma accounts, you'll need a subscription for each one.
+
+</details>
+
+## 🔑 Existing license holders
+
+<details>
+
+<summary>I had a license before. What do I need to do?</summary>
+
+<br />
+
+Nothing. Your license was automatically linked to your Figma account. If your Pro status doesn't show as active, go to **Settings > Refresh** to force a status check.
 
 </details>
 
@@ -79,7 +101,7 @@ If your subscription has been canceled or the payment has failed, and the validi
 
 <br />
 
-Go to the Export tab, select a collection and mode, preview the CSS, then either copy it to your clipboard or download a ZIP containing all the CSS files.
+Go to the Export tab, select a collection and mode, preview the CSS, then copy it to your clipboard. **Pro users**: download all files as a ZIP.
 
 </details>
 
@@ -103,11 +125,11 @@ The plugin applies transformations to ensure CSS validity:
 
 <br />
 
-For the download option, all selected collections are exported at once in a ZIP file. For the copy-to-clipboard option, only one mode of a collection is copied. To export multiple modes or collections, use the Git Deployment feature to choose specific collections and modes.
+The **Download all** option (Pro) exports all selected collections at once in a ZIP file. For the copy-to-clipboard option, only one mode of a collection is copied. The **Git deployment** feature (Pro) also lets you select specific collections and modes to deploy.
 
 </details>
 
-## 🌐 Git Deployment (Premium)
+## 🌐 Git Deployment (Pro)
 
 <details>
 
@@ -115,7 +137,9 @@ For the download option, all selected collections are exported at once in a ZIP 
 
 <br />
 
-First, purchase a license directly through Figma and activate it in the plugin's Settings tab. Then, create a Git provider under the Settings tab. After that, go to the Deploy tab, select your provider from the list, choose the collection modes to export, and click the "Push" button to deploy.
+First, subscribe via the plugin (click Subscribe on the Deploy or Export tab). Once subscribed, go to the **Settings** tab to add a Git provider. Then go to the **Deploy** tab, select your provider, choose the collection modes to export, and click the **Push** button.
+
+If the subscription status doesn't update immediately, click the **Refresh** button in the Settings tab.
 
 </details>
 
@@ -142,7 +166,7 @@ Check resources:
 Troubleshoot with these steps:
 
 - Check that the token has sufficient write permissions
-  Verify the branch exists (the plugin will create it automatically if permissions allow)
+- Verify the branch exists (the plugin will create it automatically if permissions allow)
 - Ensure the repository URL and provider details are correct
 - Confirm that the selected collections and modes are not empty
 
@@ -164,7 +188,7 @@ Yes, you can specify the target branch in the provider settings. If the branch d
 
 <br />
 
-Yes, you can specify the base path in the provider settings. If the directories doesn't exist, the plugin will create it automatically.
+Yes, you can specify the base path in the provider settings. If the directories don't exist, the plugin will create it automatically.
 
 </details>
 
@@ -182,11 +206,11 @@ All Git provider data (token, owner, repository, etc.) is stored locally on your
 
 <details>
 
-<summary>Can I share my license with others?</summary>
+<summary>What data does the plugin send to your servers?</summary>
 
 <br />
 
-No, each license is personal and linked to the email used during purchase.
+When checking subscription status, the plugin sends your **Figma User ID** to verify your access. No email or personal information is sent.
 
 </details>
 
@@ -194,11 +218,13 @@ No, each license is personal and linked to the email used during purchase.
 
 <details>
 
-<summary>I'm getting an `License is expired or inactive` error. What should I do?</summary>
+<summary>I subscribed but the plugin still shows Inactive. What should I do?</summary>
 
 <br />
 
-Double-check the license key you entered, ensuring there are no extra spaces or typos. Check if the susbcription is active on Stripe. If the issue persists, contact support at `yoriiis[at]duck.com`.
+First, make sure you're logged into the same **Figma account** used for the subscription. Then go to the **Settings** tab and click the **Refresh** button to force a status check. If it still shows Inactive, try closing and reopening the plugin.
+
+Activation is automatic and usually takes a few seconds. The Refresh button simply speeds up the process.
 
 </details>
 
@@ -210,11 +236,9 @@ Double-check the license key you entered, ensuring there are no extra spaces or 
 
 Make sure:
 
-The token has the necessary permissions.
-
-The target branch exists or that your token allows branch creation.
-
-The selected collections and modes aren't empty.
+- The token has the necessary permissions
+- The target branch exists or that your token allows branch creation
+- The selected collections and modes aren't empty
 
 </details>
 
