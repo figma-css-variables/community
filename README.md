@@ -1,73 +1,18 @@
-# Figma CSS Variables: Design Tokens Export & Deploy
+# Design Tokens Export & Deploy
 
 > [!NOTE]
-> This repository hosts the [Github Discussion community](https://github.com/figma-css-variables/community/discussions) for the [Figma CSS Variables plugin](https://www.figma.com/community/plugin/1474166340745390696/figma-css-variables).<br />
-> Check the [FAQ](FAQ.md) or [GitHub Discussions](https://github.com/figma-css-variables/community/discussions) for support.
+> This repository hosts the community (FAQ, Discussions, Issues) for the **Design Tokens Export & Deploy** plugin family — available for Figma and Penpot.
+>
+> Need help? Check the [FAQ](FAQ.md) or [GitHub Discussions](https://github.com/figma-css-variables/community/discussions).
 
-Turn Figma variables into production-ready code — CSS, TypeScript, SwiftUI, Flutter, and 5 more. Deploy directly to GitHub or GitLab.
+Export your design tokens to **9 languages** — from CSS to TypeScript, SwiftUI, and Flutter — and deploy them directly to GitHub or GitLab.
 
-[![Image of Figma CSS Variables plugin](https://yoriiis.github.io/cdn/static/figma-css-variables/cover-1.png)](https://www.figma.com/community/plugin/1474166340745390696/figma-css-variables)
+[![Design Tokens Export & Deploy](https://yoriiis.github.io/cdn/static/figma-css-variables/cover-1.png)](https://www.figma.com/community/plugin/1474166340745390696)
 
-## Features
+## Available on
 
-### Free
-
-- **Analyze your variables** View all Figma variable collections and modes
-- **Instant CSS generation** Preview and export CSS from your variables
-- **Copy to clipboard** Copy the generated CSS for a single mode
-- **One-click synchronization** Always stay up to date with your latest Figma variables
-
-### Pro
-
-Everything in **Free**, plus:
-
-- **Download all** Export all collections and modes as a ZIP file
-- **Git deployment** Push your CSS files directly to GitHub, GitLab, or self-hosted GitLab
-- Select specific collections and modes to deploy
-- Commit messages are automatically generated
-- **Extra languages** Tailwind v4, TypeScript, Flutter, Jetpack Compose, SwiftUI and more
-- **Color formats** Display P3, LCH, LAB, OKLAB for wider gamut support
-
-Subscriptions are managed through Stripe directly from the plugin.
-
-### File structure
-
-- A separate **CSS file** is generated for each mode within a collection
-- Files follow the naming pattern: "collectionName-modeName.css"
-
-### Variable transformations
-
-Figma variables are transformed to ensure they are valid in **CSS**:
-
-- Slashes (`/`) are replaced with hyphens (`-`) in variable names
-- Original casing of variable names is preserved (uppercase, lowercase, etc.)
-- For numeric variables (`FLOAT` type), the unit `px` is automatically added
-- CSS variables are sorted alphabetically
-
-### UI & Accessibility
-
-- **Dark mode compatible**: the plugin adapts to the user's Figma theme preference (light/dark mode)
-- **Keyboard navigation**: all interactive elements support keyboard navigation for improved accessibility
-- **Focus indicators**: clear visual focus on form fields and interactive elements
-- **Accessibility compliance**: designed following W3C and A11Y best practices
-
-## How to use
-
-### Exporting CSS Variables
-
-- Navigate to the **Export** tab
-- View all Figma variables structured into **collections** and **modes** (a collection contains multiple modes)
-- Select a collection and a mode
-- Preview the generated CSS
-- Copy the generated CSS directly to your clipboard
-- **Pro users**: download all files as a ZIP
-
-### Deploying to Git
-
-- Navigate to the **Settings** tab and add a Git provider
-- Go to the **Deploy** tab
-- Select your provider, choose the collections and modes to export
-- Click the **Push** button to deploy
+- <a href="https://www.figma.com/community/plugin/1474166340745390696"><picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/figma/ffffff"><img src="https://cdn.simpleicons.org/figma/1a1a1a" height="20" alt="Figma" /></picture> Figma CSS Variables: Design Tokens Export & Deploy</a>
+- <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/penpot/ffffff"><img src="https://cdn.simpleicons.org/penpot/151035" height="20" alt="Penpot" /></picture> Design Tokens Export & Deploy <sup>Soon</sup>
 
 ---
 

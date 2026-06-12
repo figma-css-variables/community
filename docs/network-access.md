@@ -1,9 +1,9 @@
-# Figma CSS Variables: Network Access
+# Design Tokens Export & Deploy: Network Access
 
 > [!IMPORTANT]
-> This document outlines the network resources the Figma plugin connects to when using the Community build.
+> This document outlines the network resources the plugin (Figma and Penpot versions) connects to.
 
-The Figma plugin interacts with specific services to ensure proper functionality while maintaining user privacy and security.
+The plugin interacts with specific services to ensure proper functionality while maintaining user privacy and security.
 
 ## All users
 
@@ -15,9 +15,9 @@ The plugin sends error reports to `sentry.io`. These reports do not contain any 
 
 ### Git Providers
 
-When users utilize the **Git provider** feature, the plugin connects directly to GitHub, GitLab, or a self-hosted GitLab instance to deploy CSS files.
+When users utilize the **Git provider** feature, the plugin connects directly to GitHub, GitLab, or a self-hosted GitLab instance to deploy files.
 
-Connections occur directly between the plugin and the user's chosen provider; no data passes through our infrastructure. All data is stored locally within the Figma application.
+Connections occur directly between the plugin and the user's chosen provider; no data passes through our infrastructure. All data is stored locally within the application.
 
 ### Subscription status
 
