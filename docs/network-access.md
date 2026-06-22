@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > This document outlines the network resources the plugin (Figma and Penpot versions) connects to.
 
-The plugin interacts with specific services to ensure proper functionality while maintaining user privacy and security.
+In this document, "platform" refers to Figma or Penpot depending on which version you use.
 
 ## All users
 
@@ -11,16 +11,26 @@ The plugin interacts with specific services to ensure proper functionality while
 
 We use **Sentry** to track errors and crashes, helping us identify and resolve issues efficiently.
 
-The plugin sends error reports to `sentry.io`. These reports do not contain any personally identifiable information (PII).
+Error reports include a hashed user identifier (SHA-256, one-way and irreversible) and context such as the error type and subscription plan. No personally identifiable information (PII) is sent.
 
 ### Git Providers
 
-When users utilize the **Git provider** feature, the plugin connects directly to GitHub, GitLab, or a self-hosted GitLab instance to deploy files.
+When users use the **Git provider** feature, the plugin connects directly to the GitHub API or GitLab API (including self-hosted instances) to deploy the exported design token files.
 
-Connections occur directly between the plugin and the user's chosen provider; no data passes through our infrastructure. All data is stored locally within the application.
+Connections occur directly between the plugin and the chosen provider. No data passes through our infrastructure.
 
 ### Subscription status
 
-The plugin periodically checks your subscription status to determine which features are available.
+The plugin periodically checks your subscription status to determine which features are available. This sends your platform user ID and platform name to our API.
 
 Payments are processed by **Stripe**. No payment data passes through our infrastructure.
+
+## Data storage
+
+- **User ID** is stored on the backend (encrypted at rest) for subscription management
+- **Subscription status** is cached locally with cryptographic signature verification
+- Git provider credentials (tokens) are stored locally using the platform's official storage API and never sent to our servers
+
+## Security
+
+For details on reporting vulnerabilities, see [SECURITY.md](../SECURITY.md).
