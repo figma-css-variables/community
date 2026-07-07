@@ -13,9 +13,15 @@ We use **Sentry** to track errors and crashes, helping us identify and resolve i
 
 Error reports include a hashed user identifier (SHA-256, one-way and irreversible) and context such as the error type and subscription plan. No personally identifiable information (PII) is sent.
 
+### PostHog
+
+We use **PostHog** to collect anonymous usage analytics.
+
+Collected data is limited to feature usage, plugin version, and platform type. No personally identifiable information (PII) or design content is sent.
+
 ### Git Providers
 
-When users use the **Git provider** feature, the plugin connects directly to the GitHub API or GitLab API (including self-hosted instances) to deploy the exported design token files.
+When users use the **Git provider** feature, the plugin connects directly to the GitHub API, GitLab API (including self-hosted instances), Bitbucket API or Azure DevOps API to deploy the exported design token files.
 
 Connections occur directly between the plugin and the chosen provider. No data passes through our infrastructure.
 
