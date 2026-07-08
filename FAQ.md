@@ -1,6 +1,7 @@
 # Frequently Asked Questions (FAQ)
 
-Welcome to the FAQ for **Design Tokens Export & Deploy** (Figma & Penpot). Here you'll find answers to common questions to help you get started and troubleshoot issues efficiently.
+> [!IMPORTANT]
+> This document covers common questions about the **Design Tokens Export & Deploy** plugin (Figma & Penpot), from installation to troubleshooting.
 
 ---
 
@@ -119,9 +120,9 @@ Go to the **Export** tab, select a collection and mode, preview the output, then
 
 The plugin applies transformations to ensure valid output for each target language:
 
-- Slashes (`/`) and spaces are replaced with hyphens (`-`) in names.
-- Numeric values (FLOAT type) automatically append the `px` unit.
-- Design tokens are sorted alphabetically.
+- Slashes (`/`) and spaces are replaced with hyphens (`-`) in names
+- Numeric values (FLOAT type) automatically append the `px` unit
+- Design tokens are sorted alphabetically
 
 </details>
 

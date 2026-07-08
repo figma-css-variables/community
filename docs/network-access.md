@@ -39,4 +39,4 @@ Payments are processed by **Stripe**. No payment data passes through our infrast
 
 ## Security
 
-For details on reporting vulnerabilities, see [SECURITY.md](../SECURITY.md).
+For details on reporting vulnerabilities, see [SECURITY.md](../.github/SECURITY.md).

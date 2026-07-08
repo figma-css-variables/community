@@ -1,5 +1,8 @@
 # Privacy Policy
 
+> [!IMPORTANT]
+> This document explains what data the **Design Tokens Export & Deploy** plugin collects, how it is stored, and your rights regarding your personal information.
+
 ## Data collected and why
 
 | Data                                       | Purpose            | Storage                  |

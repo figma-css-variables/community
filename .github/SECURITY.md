@@ -1,5 +1,8 @@
 # Security Policy
 
+> [!IMPORTANT]
+> This document explains how to report security vulnerabilities in the **Design Tokens Export & Deploy** plugin or its backend API.
+
 ## Reporting a Vulnerability
 
 Report vulnerabilities through **GitHub Private Vulnerability Reporting**:
